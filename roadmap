@@ -1,0 +1,186 @@
+🟢 Beginner Level (Foundations)
+What is CSS?
+
+CSS Syntax (Selectors, Properties, Values)
+
+Types of CSS
+
+Inline
+
+Internal
+
+External
+
+Selectors
+
+Element Selector
+
+Class Selector
+
+ID Selector
+
+Grouping & Universal Selector
+
+Colors
+
+Named Colors
+
+HEX, RGB, RGBA, HSL
+
+Units
+
+px, %, em, rem, vh, vw
+
+Box Model
+
+Content
+
+Padding
+
+Border
+
+Margin
+
+Typography
+
+font-family
+
+font-size
+
+font-weight
+
+line-height
+
+text-align
+
+text-decoration
+
+Backgrounds
+
+background-color
+
+background-image
+
+background-position
+
+background-size
+
+background-repeat
+
+🟡 Intermediate Level
+Display Property
+
+block
+
+inline
+
+inline-block
+
+none
+
+Positioning
+
+static
+
+relative
+
+absolute
+
+fixed
+
+sticky
+
+Flexbox
+
+display: flex
+
+flex-direction
+
+justify-content
+
+align-items
+
+flex-wrap
+
+Grid
+
+display: grid
+
+grid-template-columns
+
+grid-template-rows
+
+grid-gap
+
+place-items
+
+Pseudo-classes
+
+:hover
+
+:focus
+
+:nth-child()
+
+:first-child
+
+Pseudo-elements
+
+Media Queries (Responsive Design)
+
+@media rules
+
+min-width / max-width
+
+Transitions & Animations
+
+transition-property
+
+transition-duration
+
+keyframes
+
+animation-name
+
+animation-duration
+
+🔵 Advanced Level
+CSS Variables (Custom Properties)
+
+--main-color: #333
+
+var(--main-color)
+
+Advanced Selectors
+
+Attribute selectors
+
+Combinators (>, +, ~, space)
+
+Z-index and Stacking Context
+
+Clipping and Masking
+
+CSS Functions
+
+calc()
+
+min() / max()
+
+clamp()
+
+Object-fit & Object-position
+
+Logical Properties (e.g., margin-inline-start)
+
+Print Styles
+
+Dark Mode (Prefers-Color-Scheme)
+
+CSS Frameworks Overview
+
+Bootstrap
+
+Tailwind
+
+Bulma (Optional, not CSS but useful knowledge)
