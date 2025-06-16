@@ -1,0 +1,107 @@
+🔹 1. Element Selector
+📘 Definition:
+Targets all HTML elements of a specific type.
+
+✅ Example: Style all <p> tags
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      color: green;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>Another paragraph styled using the element selector.</p>
+</body>
+</html>
+🔹 2. Class Selector
+📘 Definition:
+Targets any HTML element with a specific class. Use . before the class name in CSS.
+
+✅ Example: Style elements with class highlight
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p class="highlight">This paragraph is highlighted.</p>
+  <div class="highlight">This div is also highlighted.</div>
+</body>
+</html>
+🔹 3. ID Selector
+📘 Definition:
+Targets a single unique element with a specific ID. Use # before the ID name.
+
+✅ Example: Style the element with ID main-title
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #main-title {
+      color: blue;
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="main-title">Welcome to My Page</h1>
+</body>
+</html>
+🔹 4. Grouping Selector
+📘 Definition:
+Allows you to apply the same style to multiple selectors separated by commas.
+
+✅ Example: Style <h1>, <p>, and <div> the same way
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1, p, div {
+      font-family: Arial;
+      color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <div>This is a div</div>
+</body>
+</html>
+🔹 5. Universal Selector
+📘 Definition:
+Targets all elements on the page. Denoted by *.
+
+✅ Example: Set a default style for every element
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h2>Heading</h2>
+  <p>Paragraph with no default margin or padding.</p>
+</body>
+</html>
